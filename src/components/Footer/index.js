@@ -25,11 +25,11 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Services</FooterLinkTitle>
             </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Team</FooterLinkTitle>
             </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>News</FooterLinkTitle>
             </FooterLinkItems>
@@ -39,6 +39,8 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Careers</FooterLinkTitle>
             </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Privacy</FooterLinkTitle>
             </FooterLinkItems>

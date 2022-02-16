@@ -14,7 +14,7 @@ function App() {
     setIsOpen(!isOpen);
   };
   return (
-    <div>
+    <div className='container'>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />

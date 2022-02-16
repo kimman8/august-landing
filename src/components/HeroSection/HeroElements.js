@@ -56,9 +56,10 @@ export const ImgBg = styled.img`
 
 export const HeroContent = styled.div`
   z-index: 3;
-  max-width: 1200px;
+  max-width: 1600px;
   position: absolute;
-  padding: 8px 24px;
+  margin-top: 230px;
+  padding: 28px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,8 +67,9 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
+  font-size: 110px;
   text-align: center;
+  font-weight: normal;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -83,7 +85,8 @@ export const HeroP = styled.p`
   color: #fff;
   font-size: 32px;
   text-align: center;
-  max-width: 600px;
+  max-width: 638px;
+  font-weight: normal;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;

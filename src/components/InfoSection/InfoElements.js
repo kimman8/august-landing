@@ -3,21 +3,22 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? ' #EBE772' : '#010606')};
-
+  /* height: 547px; */
+  height: 661px;
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    /* padding: 100px 0; */
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  /* height: 661px; */
   width: 100%;
-  max-width: 1100px;
+  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
+  /* padding: 0 24px; */
   justify-content: center;
 `;
 
@@ -34,20 +35,25 @@ export const InfoRow = styled.div`
   } ;
 `;
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  /* margin-bottom: 15px;
+  padding: 0 15px; */
   grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  /* margin-bottom: 15px; */
+  /* padding: 0 15px; */
   grid-area: col2;
 `;
 export const TextWrapper = styled.div`
-  max-width: 540px;
-  padding-top: 0;
-  padding-bottom: 60px;
+  max-width: 805px;
+  padding: 150px 120px;
+  @media screen and (max-width: 768px) {
+    padding: 50px;
+  }
+
+  /* padding-right: 100px; */
+  /* padding-bottom: 60px; */
 `;
 export const TopLine = styled.p`
   color: #01bf71;
@@ -59,14 +65,23 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
 `;
 export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
-  line-height: 1.1;
+  /* margin-bottom: 24px; */
+  font-size: 72px;
+  /* font-size: clamp(30px, 20vw, 72px); */
+  line-height: 93.75%;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1B1947')};
-
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 1024px) {
+    font-size: 60px;
+    padding-bottom: 100px;
+  }
+  @media screen and (max-width: 960px) {
+    font-size: 50px;
+    padding-bottom: 100px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+    padding: 0px 20px;
   }
 `;
 export const Subtitle = styled.p`
@@ -82,12 +97,14 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 805px;
   height: 100%;
 `;
 
 export const Img = styled.img`
+  /* object-fit: fill; */
   width: 100%;
+  /* height: 100%; */
   margin: 0 0 10px 0;
   padding-right: 0;
 `;

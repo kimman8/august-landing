@@ -35,9 +35,9 @@ const InfoSection = ({
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine>{topLine}</TopLine>
+                {/* <TopLine>{topLine}</TopLine> */}
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                {/* <Subtitle darkText={darkText}>{description}</Subtitle> */}
               </TextWrapper>
             </Column1>
             <Column2>
