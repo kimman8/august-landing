@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 import { IconContext } from 'react-icons/lib';
 import Logo from '../../images/Logo.svg';
 import { FaBars } from 'react-icons/fa';
