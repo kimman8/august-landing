@@ -28,9 +28,9 @@ const Navbar = ({ toggle }) => {
   useEffect(() => {
     window.addEventListener('scroll', changeNav);
   }, []);
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
+  // const toggleHome = () => {
+  //   scroll.scrollToTop();
+  // };
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>

@@ -8,9 +8,9 @@ import {
   InfoContainer,
   InfoRow,
   InfoWrapper,
-  Subtitle,
+  // Subtitle,
   TextWrapper,
-  TopLine,
+  // TopLine,
 } from './InfoElements';
 
 const InfoSection = ({

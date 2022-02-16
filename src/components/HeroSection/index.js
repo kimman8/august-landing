@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Image1 from '../../images/Image1.jpg';
 import {
-  ArrowForward,
-  ArrowRight,
+  // ArrowForward,
+  // ArrowRight,
   HeroBg,
   HeroContainer,
   HeroContent,
@@ -12,10 +12,10 @@ import {
 } from './HeroElements';
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
-  const onHover = () => {
-    setHover(!hover);
-  };
+  // const [hover, setHover] = useState(false);
+  // const onHover = () => {
+  //   setHover(!hover);
+  // };
   return (
     <HeroContainer id='home'>
       <HeroBg>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { animateScroll as scroll } from 'react-scroll';
+// import { animateScroll as scroll } from 'react-scroll';
 
 import {
   FooterContainer,
@@ -11,9 +11,9 @@ import {
 } from './FooterElements';
 
 const Footer = () => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
+  // const toggleHome = () => {
+  //   scroll.scrollToTop();
+  // };
   return (
     <FooterContainer>
       <FooterWrap>
