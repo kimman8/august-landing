@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   headline: 'We lead the way when it comes to range, quality and expertise.',
   imgStart: false,
-  img: require('../../images/Image2.svg').default,
+  img: require('../../images/Image2-COMPRESSED.jpg'),
   alt: 'someone on the treadmill',
   dark: true,
   primary: true,

@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-import Image1 from '../../images/Image1.jpg';
+import Image1 from '../../images/Image1-COMPRESSED.jpg';
 import {
   // ArrowForward,
   // ArrowRight,
